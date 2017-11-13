@@ -4,14 +4,13 @@
 @import "$yo-config/fragment/yo-list";
 
 
+
 body{
     font-family: '微软雅黑'
 }
 .yo-card{
-    
-    margin-top: 0
+    margin-bottom: .3rem
 }
-
 .m-list {
     background-color: #eeeeee;
 }
@@ -32,17 +31,4 @@ body{
 
 .bd a{
     color:#212121
-}
-.ft{
-    text-align: right;
-    margin-right: .15rem;
-}
-.flex .title {
-    line-height: .4rem
-}
-.desc{
-    
-     margin: .15rem;
-     text-align: left;
-     text-indent: .3rem
 }

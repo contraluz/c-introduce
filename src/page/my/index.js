@@ -8,12 +8,7 @@ import './index.scss';
 
 class My extends Component {
     render() {
-        var myArr=[
-            "../img/vue.jpg",
-            "../img/c.jpg",
-            "../img/h.jpg",
-            "../img/nodejs.jpg"
-        ]
+
         return (
             <div className="yo-flex">
                 <Header title="我的"/>
@@ -68,7 +63,7 @@ class My extends Component {
                     </Touchable>
                     
                     <Touchable touchClass="m-content-active" onTap={() => {
-                            yoHistory.push('/');
+                            yoHistory.push('/pro');
                         }}>
                            <li className="item">经历</li>
                             

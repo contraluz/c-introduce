@@ -8,6 +8,7 @@ import yoHistory from '../common/history';
 const List = require.async('./list');
 const Detail = require.async('./detail');
 const My = require.async('./my');
+const Pro = require.async('./pro');
 
 const Root = () => (
     
@@ -17,6 +18,7 @@ const Root = () => (
             <Route path="list" getComponent={List} />
             <Route path="detail" getComponent={Detail}/>
             <Route path="my" getComponent={My}/>
+            <Route path="pro" getComponent={Pro}/>
         </Route>
 
     </Router>

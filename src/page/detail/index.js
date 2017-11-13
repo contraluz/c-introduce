@@ -81,7 +81,7 @@ class DetailPage extends Component {
                     </Touchable>
                     
                     <Touchable touchClass="m-content-active" onTap={() => {
-                            yoHistory.push('/');
+                            yoHistory.push('/pro');
                         }}>
                            <li className="item">经历</li>
                             

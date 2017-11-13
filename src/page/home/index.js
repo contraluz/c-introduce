@@ -20,7 +20,7 @@ class HomePage extends Component {
                             yoHistory.push('/list');
                         }}>
                             <div>
-                                <p className="title">自我介绍</p>
+                                <p className="title">项目介绍</p>
                                 <p className="notice">点我查看更多...</p>
                             </div>
                             
