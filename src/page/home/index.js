@@ -32,16 +32,10 @@ class HomePage extends Component {
                         </Carousel>
                     </div>
                 </Scroller>
-                <Footer title="footer"/>
                     
-                {/* <ul className="yo-tab">
-                    <li className="item item-on">首页</li>
-                    
-                    <li className="item">技能</li>
-                    <li className="item">项目</li>
-                    <li className="item">经历</li>
-                    <li className="item">我的</li>
-                </ul> */}
+                
+                <Footer/>
+                
             </div>
         )
     }

@@ -5,17 +5,43 @@ import yoHistory from '$common/history';
 import './index.scss';
 
 class Footer extends Component {
+    
     render() {
         return (
-            <header className="yo-footer">
-                <ul className="yo-tab">
-                    <li className="item item-on">首页</li>
-                    <li className="item">技能</li>
-                    <li className="item">项目</li>
-                    <li className="item">经历</li>
-                    <li className="item">我的</li>
+            <ul className="yo-tab">
+                <Touchable touchClass="m-content-active" onTap={() => {
+                            yoHistory.push('/');
+                        }}>
+                          <li className="item item-on">首页</li>
+                            
+                    </Touchable>
+                    
+                    <Touchable touchClass="m-content-active" onTap={() => {
+                            yoHistory.push('/');
+                        }}>
+                           <li className="item">经历</li>
+                            
+                    </Touchable>
+                    <Touchable touchClass="m-content-active" onTap={() => {
+                            yoHistory.push('/list');
+                        }}>
+                            <li className="item">项目</li>
+                            
+                    </Touchable>
+                    <Touchable touchClass="m-content-active" onTap={() => {
+                            yoHistory.push('/detail');
+                        }}>
+                             <li className="item">技能</li>
+                            
+                    </Touchable>
+                    <Touchable touchClass="m-content-active" onTap={() => {
+                            yoHistory.push('/my');
+                        }}>
+                          <li className="item">我的</li>
+                            
+                    </Touchable>
+                    
                 </ul>
-            </header>
         )
     }
 }

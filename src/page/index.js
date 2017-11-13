@@ -10,14 +10,15 @@ const Detail = require.async('./detail');
 const My = require.async('./my');
 
 const Root = () => (
+    
     <Router history={yoHistory}>
         <Route path="/">
             <IndexRoute component={HomePage}/>
             <Route path="list" getComponent={List} />
             <Route path="detail" getComponent={Detail}/>
             <Route path="my" getComponent={My}/>
-            
         </Route>
+
     </Router>
 );
 
