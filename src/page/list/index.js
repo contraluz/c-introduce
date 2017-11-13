@@ -19,7 +19,7 @@ class Detail extends Component {
                 <div className="yo-card">
                     <h3 className="hd">项目1：sasa官网（香港）</h3>
                     <div className="bd cols">
-                        <img className="img-cover" width='370' src="../img/reg.jpg" alt="sasa"/>
+                        <img className="img-cover" width='370' height='230' src="../img/reg.jpg" alt="sasa"/>
                         <div className="flex">
                         <a href='http://www.sasa.com/' className="title">进入sasa官网</a>
                             <p className="desc">
@@ -39,7 +39,7 @@ class Detail extends Component {
                 <div className="yo-card">
                     <h3 className="hd">项目2：麦芽网</h3>
                     <div className="bd cols">
-                        <img className="img-cover" width='370' src="../img/maiya.jpg" alt="maiya"/>
+                        <img className="img-cover" width='300' height='290' src="../img/maiya.jpg" alt="maiya"/>
                         <div className="flex">
                             <a href='http://www.maiya.com/' className="title">进入麦芽网</a>
                             <p className="desc">

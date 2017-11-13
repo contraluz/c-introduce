@@ -18,7 +18,7 @@ class Pro extends Component {
                 
                 <div className="yo-card">
                     <div className="extra">
-                         <img className="img-cover" width='375' src="../img/lan.jpg" alt="易网"/> 
+                         <img className="img-cover" width='375' height='260' src="../img/lan.jpg" alt="易网"/> 
                     </div>
                     <div className="bd">
                         <h3><a href="http://www.eoner.com/" className="title">杭州易网灵杰科技有限公司</a></h3>
@@ -29,7 +29,7 @@ class Pro extends Component {
                 </div>
                 <div className="yo-card">
                     <div className="extra">
-                        <img className="img-cover" width='375' src="../img/siwei.jpg" alt="四维空间"/>
+                        <img className="img-cover" width='375' height='200' src="../img/siwei.jpg" alt="四维空间"/>
                     </div>
                     <div className="bd">
                         <h3><a href="http://www.vpans.com/" className="title">四维空间信息科技有限公司</a></h3>
@@ -40,7 +40,7 @@ class Pro extends Component {
                 </div>
                 <div className="yo-card">
                     <div className="extra">
-                        <img className="img-cover" width='375' src="../img/swei.jpg" alt="四维空间"/>
+                        <img className="img-cover" width='375' height='260' src="../img/swei.jpg" alt="四维空间"/>
                     </div>
                     <div className="bd">
                         <h3><a href="http://www.vpans.com/" className="title">四维空间信息科技有限公司</a></h3>

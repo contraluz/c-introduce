@@ -24,10 +24,11 @@ class DetailPage extends Component {
                     </div>                                              
                     <div className="item" > 
                         <div className="flex">
-                            <Scroller.LazyImage height="100" src={`../img/ang.jpg`}/>
+                            <Scroller.LazyImage height="100" width="100" src={`../img/ang.jpg`}/>
                         </div>
                         <div className="mark" >
                             <span className='my_name'>Angular</span> 
+                            
                          </div>
                     </div> 
                     <div className="item" > 
@@ -40,7 +41,7 @@ class DetailPage extends Component {
                     </div>
                     <div className="item" > 
                         <div className="flex">
-                            <Scroller.LazyImage height="100" src={`../img/nodejs.jpg`}/>
+                            <Scroller.LazyImage height="100" width="100" src={`../img/nodejs.jpg`}/>
                         </div>
                         <div className="mark" >
                             <span className='my_name'>Node.js</span> 
